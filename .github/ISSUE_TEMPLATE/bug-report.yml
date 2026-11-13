@@ -1,5 +1,5 @@
 name: Bug report
-description: Something in Books Forever errors out or doesn't work.
+description: Something in BookBound errors out or doesn't work.
 title: "[Bug] "
 labels: ["bug"]
 body:

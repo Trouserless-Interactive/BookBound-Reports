@@ -1,8 +1,8 @@
-![Books Forever](banner.png)
+![BookBound](banner.png)
 
-# Books Forever: Reports
+# BookBound: Reports
 
-This is where you report problems with **Books Forever**, the library-book tracker addon for
+This is where you report problems with **BookBound**, the library-book tracker addon for
 World of Warcraft: Forever. It holds reports only. The addon itself isn't downloaded from here.
 
 ## Report a wrong book location
