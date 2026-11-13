@@ -1,0 +1,27 @@
+name: Bug report
+description: Something in Books Forever errors out or doesn't work.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: build
+    attributes:
+      label: Addon build
+      description: Shown in the main window title and at the bottom of Settings, e.g. "Alpha 0.0.2 · Build Alpha.1.02".
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error text
+      description: If BugSack or the game showed an error, paste it here.
+      render: text
+    validations:
+      required: false

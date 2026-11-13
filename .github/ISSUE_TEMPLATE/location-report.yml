@@ -1,0 +1,45 @@
+name: Book location report
+description: A book isn't where Books Forever says, or you found it somewhere else.
+title: "[Location] "
+labels: ["location-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping fix the book database!
+
+        **In game:** open the book in Books Forever (`/books`), stand where the book really is
+        (or where the addon sent you), and click **Report bad location** or **Found it here**.
+        Then open the **Reports** tab, click **Copy**, and paste the text below.
+  - type: textarea
+    id: report
+    attributes:
+      label: Copied report
+      description: Paste the text from the Reports tab's Copy button. It includes the book, the expected and current coordinates, the client build and the addon build.
+      render: text
+      placeholder: |
+        Books Forever report: Report bad location
+        Book: ...
+        Expected: ...
+        Current: ...
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong?
+      options:
+        - The book isn't at the listed spot
+        - I found the book at a different spot
+        - The hint or directions are wrong
+        - The book needs a quest, key or event first
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else?
+      description: Directions, what you clicked, or a screenshot. Drag images straight in here.
+    validations:
+      required: false
