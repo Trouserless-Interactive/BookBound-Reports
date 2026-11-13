@@ -1,3 +1,5 @@
+![Books Forever](banner.png)
+
 # Books Forever: Reports
 
 This is where you report problems with **Books Forever**, the library-book tracker addon for
